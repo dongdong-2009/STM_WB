@@ -1,0 +1,18 @@
+--cpu Cortex-M0
+".\main.o"
+".\lmx2592ls.o"
+".\stm32f0xx_gpio.o"
+".\stm32f0xx_rcc.o"
+".\stm32f0xx_usart.o"
+".\stm32f0xx_adc.o"
+".\stm32f0xx_misc.o"
+".\led.o"
+".\delay.o"
+".\temperature.o"
+".\usart1.o"
+".\startup_stm32f0xx_ld.o"
+".\system_stm32f0xx.o"
+--library_type=microlib --strict --scatter ".\LED.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\LED.map" -o .\LED.axf
