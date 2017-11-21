@@ -1,5 +1,5 @@
 Dependencies for Project 'LED', Target 'Target 1': (DO NOT MODIFY !)
-F (..\User\main.c)(0x59F87258)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\ST_Lib\inc -I..\ST_Lib\src -I..\System\CMSIS -I..\System\startup -I..\User -I..\My_Lib\delay -I..\My_Lib\LED -IE:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\My_Lib\temperature -I..\My_Lib\uart-I E:\prokeil\stm32wbctrl11_1\STM_WB\Proj\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX_LD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+F (..\User\main.c)(0x5A13D4E2)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\ST_Lib\inc -I..\ST_Lib\src -I..\System\CMSIS -I..\System\startup -I..\User -I..\My_Lib\delay -I..\My_Lib\LED -IE:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\My_Lib\temperature -I..\My_Lib\uart-I E:\prokeil\stm32wbctrl11_1\STM_WB\Proj\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX_LD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
 I (..\User\ALL_Includes.h)(0x59C21CD7)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
 I (..\System\CMSIS\stm32f0xx.h)(0x525803F0)
@@ -326,7 +326,7 @@ I (..\My_Lib\uart\USART1.h)(0x5227595D)
 I (..\User\ADF5355.h)(0x596990D1)
 I (..\User\LMX259x.h)(0x59C0F82B)
 I (..\My_Lib\temperature\temperature.h)(0x59C46D61)
-F (..\My_Lib\uart\USART1.c)(0x59F9771C)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\ST_Lib\inc -I..\ST_Lib\src -I..\System\CMSIS -I..\System\startup -I..\User -I..\My_Lib\delay -I..\My_Lib\LED -IE:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\My_Lib\temperature -I..\My_Lib\uart-I E:\prokeil\stm32wbctrl11_1\STM_WB\Proj\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX_LD-o .\usart1.o --omf_browse .\usart1.crf --depend .\usart1.d)
+F (..\My_Lib\uart\USART1.c)(0x5A13D60E)(-c --cpu Cortex-M0 -D__MICROLIB -g -O0 --apcs=interwork -I..\ST_Lib\inc -I..\ST_Lib\src -I..\System\CMSIS -I..\System\startup -I..\User -I..\My_Lib\delay -I..\My_Lib\LED -IE:\Keil_v5\ARM\Pack\ARM\CMSIS\4.3.0\CMSIS\Include -I..\My_Lib\temperature -I..\My_Lib\uart-I E:\prokeil\stm32wbctrl11_1\STM_WB\Proj\RTE-I E:\Keil_v5\ARM\PACK\Keil\STM32F0xx_DFP\1.5.0\Device\Include-I E:\Keil_v5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F030x6 -DUSE_STDPERIPH_DRIVER -DSTM32F0XX_LD-o .\usart1.o --omf_browse .\usart1.crf --depend .\usart1.d)
 I (..\User\ALL_Includes.h)(0x59C21CD7)
 I (E:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
 I (..\System\CMSIS\stm32f0xx.h)(0x525803F0)
