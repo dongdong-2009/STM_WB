@@ -1697,7 +1697,7 @@ void USART1_IRQHandler(void)
       ch = USART_ReceiveData(USART1);
 			//printf("%d",ch);	
 			pin_sta = GPIO_ReadInputDataBit(GPIOA, GPIO_Pin_5);
-			//printf("%d",pin_sta);
+			printf("%d",pin_sta);
 			if(pin_sta > 0)
 			{
 				if((ch / 10) == 1)
