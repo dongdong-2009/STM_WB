@@ -142,8 +142,8 @@ short Get_Temprate(void)    //获取内部温度传感器温度值
     adcx=T_Get_Adc_Average(20);  //读取通道16,20次取平均
     temperate=(float)adcx*(3.3/4096);       //电压值 
     temperate=(1.43-temperate)/0.0043+25;   //转换为温度值     
-    result=temperate*100 - 500;                  //扩大100倍.
-		printf("%d",result);
+    result=temperate*100 - 1300;                  //扩大100倍.
+		printf("t%d\n",result);
     return result;
 }
 

@@ -5,6 +5,7 @@
 #define  u16   uint16_t
 #define  u32   uint32_t
 
+#define RegNum 44
 
 #include <stdio.h>
 #include "stm32f0xx.h"
